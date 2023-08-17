@@ -17,7 +17,7 @@ function MyInfo() {
           <img
             src={myImg}
             alt="img"
-            className="rounded-full h-26 w-26 lg:h-32 lg:w-32 drop-shadow-2xl opacity-100 hover:opacity-90"
+            className="rounded-full h-24 w-24 lg:h-32 lg:w-32 drop-shadow-2xl opacity-100 hover:opacity-90"
           />
         </div>
         <div className="absolute flex-col flex-wrap m-7 p-3">
