@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
+import myImg from "./profile.jpg";
 
 function MyInfo() {
   return (
@@ -14,7 +15,7 @@ function MyInfo() {
       <div className="flex flex-col items-center bg-gradient-to-r from-green-100 to-green-50 lg:h-4/6 lg:w-2/5 p-10 h-3/4 w-3/4 border-t-4 border-green-500">
         <div className="bg-gradient-to-t from-pink-200 to-pink-200 h-[110px] w-[110px] lg:h-[140px] lg:w-[140px] rounded-full flex justify-center items-center my-[-100px] lg:my-[-120px] inset-0">
           <img
-            src="/profile.jpg"
+            src={myImg}
             alt="img"
             className="rounded-full h-26 w-26 lg:h-32 lg:w-32 drop-shadow-2xl opacity-100 hover:opacity-90"
           />
@@ -26,7 +27,7 @@ function MyInfo() {
             </a>
           </span>
           <div className="m-5">
-            <p className="max-w-md text-gray-600 text-[14px] sm:text-[16px] lg:text-[18px] font-myfont font-bold text-blue-700">
+            <p className="max-w-md  text-blue-700 text-[14px] sm:text-[16px] lg:text-[18px] font-myfont font-bold">
               Hello, I am Sahil Gunjal, I am currently pursuing my masters in
               Computer Science, at Rochester Institute of Technology, New York,
               USA. I love to travel, play cricket and watch series. <br />
