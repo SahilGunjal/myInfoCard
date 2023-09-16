@@ -6,7 +6,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-import myImg from "./profile.jpg";
+import myImg from "./profile3.png";
 
 function MyInfo() {
   return (
